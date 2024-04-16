@@ -1,0 +1,21 @@
+body {
+    background: #1d1918;
+    color: white;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 237, 164) !important;
+}
+
+a:visited {
+    color: white;
+}
+
+#presets {
+    margin-top: 1em;
+}

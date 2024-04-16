@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Shout out to http://www.marcofolio.net/webdesign/build_native-looking_apps_for_ios.html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <meta name="description" content="Flip app">
+  <meta name="keywords" content="flip,random,picker,flipper">
+  <meta name="author" content="Kyle Reed">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" href="content/icon.png" />
+  <link rel="icon" href="content/icon.png" />
+  <link rel="stylesheet" type="text/css" href="content/style.css" />
+
+  <title>Flip</title>
+  <script src="content/code.js"></script>
+</head>
+
+<body>
+  <div>
+    <input id="choices" type="text" value="Tacos,Sushi,Pizza,Burgers" />
+    <button onclick="location.href='/flip?q=' + choices.value;">Flip</button>
+    <button onclick="choices.value = '';">Clear</button>
+  </div>
+  <div id="presets">
+    <a href="/flip?q=heads,tails">Heads or Tails</a><br />
+    <a href="/flip?q=1,2,3,4,5,6">Roll a Die</a><br />
+    <a href="/flip?q=A,2,3,4,5,6,7,8,9,10,J,Q,K">Pick a Card</a><br />
+    <a href="/flip?q=It is certain,It is decidedly so,Without a doubt,Yes definitely,You may rely on it,As I see it; yes,Most likely,Outlook good,Yes,Signs point to yes,Reply hazy; try again,Ask again later,Better not tell you now,Cannot predict now,Concentrate and ask again,Don't count on it,My reply is no,My sources say no,Outlook not so good,Very doubtful">Magic 8 Ball</a><br />
+  </div>
+</body>
+
+</html>

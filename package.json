@@ -1,0 +1,10 @@
+{
+  "name": "flip-graph",
+  "version": "1.0.0",
+  "description": "Flip app using Open Graph",
+  "author": "@kallanreed",
+  "license": "ISC",
+  "dependencies": {
+    "wrangler": "^3.34.2"
+  }
+}
